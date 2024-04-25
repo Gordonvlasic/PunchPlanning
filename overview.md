@@ -1,4 +1,5 @@
 # Punchhh  Clock
+
 A multi-tier, multi-microservice SaaS solution, targeted at all establishments required of employee time tracking.
 
 ## High-Level Rundown
@@ -28,13 +29,6 @@ Once an establishment is signed up, they will be prompted to create an employee 
 
 # Website Architecture
 Below find the detailed elements and microservices related to Punchhh
-### Home
-Homepage built to showcase the Punchhh SaaS product, differentials in offered tiers, and a general overview of product operations. 
-### Punch Roster
-Here, registered businesses will enter employee details pertaining to the selected tier. 
-- Name
-- Wage
-- interlinking toggle for additional requirements for other tiers
 
 # Database Architecture
 Below find the instrinsic associated database structure within the punchh application.
@@ -54,10 +48,6 @@ Below find the instrinsic associated database structure within the punchh applic
 1. Intialize buisness roster
 2. Add users to existing roster
 3. Allow for punch functionality
-
-### Payroll
-1. After shift punches, allocate a payment total for the specific date `[]`
-2. Calculate the total estimated payout for the employee over the schedule period. (14 days)
 
 # Punch Clock Logic
 There are two components to the punch clock application 
