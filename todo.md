@@ -21,3 +21,10 @@ How should this work?
 1. Query Employee
 2. Call API endpoint (Update)
 3. Validity checks (If this is the last punch, calculate the hour difference.)
+
+# Punch Tier 1 API
+
+The intial punch function for the base tier should return the following:
+- current day and hour.
+- UNIX timestamp for punch recording
+- time difference between two punches
